@@ -1,0 +1,111 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+.page {
+    display: flex;
+    height: 120vh;
+}
+/*sidebar and its content */
+.sidebar {
+    width: 240px;
+    background-color: #233541;
+}
+.sidebar .side-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px 0px ;
+    margin: 70px 10px;
+    border-bottom: 1px solid #edc6b7;
+}
+.sidebar .links li {
+    list-style: none;
+    margin: 0px 10px 20px;
+}
+.sidebar .links li a {
+    color: #ffc501;
+    text-decoration: none;
+    padding: 15px;
+    
+    font-weight: bolder;
+    display: block;
+}
+.sidebar .links li.active {
+    background-color: rgba( 9 , 65 , 82 , 1);
+    border-radius: 6px;
+}
+.sidebar .links li a:hover {
+    background-color: rgba( 9 , 65 , 82 , 0.5);
+    border-radius: 6px;
+}
+/*home page and its content*/
+.home-content {
+    background-color: #edc6b7;
+    background-image: url("https://image.freepik.com/free-photo/shopping-online-delivery-service-mobile-application_68971-457.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+}
+h1 {
+    color: #d65f70;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 320px;
+    padding-left: 700px;
+}
+.p-home {
+    font-family: cursive;
+    font-size: 13px;
+    color: #d65f70;
+    padding-top: 10px;
+    padding-left: 700px;
+    font-size: 13 px;
+}
+/*different pages and its content*/
+.products {
+    background-color: #bd557a;
+    color: #ff6c99;
+    padding: 10px; 
+    flex-grow: 1;
+}
+h2 {
+    color: #ff6c99;
+    text-align: left;
+    text-decoration: underline;
+    margin: 30px 0px;
+}
+.row1, .row2, .row3 {
+    display: flex;
+}
+.each-pro {
+    background-color: #094152;
+    text-align: center;
+    width: 120px;
+    height: 250px;
+    padding: 10px;
+    margin: 0px 10px 20px;
+    border: 1px solid #fdc53e;
+    border-radius: 6px;
+    flex-grow: 1; 
+}
+/*div elements that contain product*/
+img {
+    width: 100px;
+    height: 100px;
+}
+  del {
+    color: #b08f70;
+    padding: 10px;
+}
+  strong {
+    color: #ffc501;
+    padding: 10px;
+}
+  .in {
+    color: #008000;
+}
+  .out {
+    color: #ff0000;
+}
+
+
